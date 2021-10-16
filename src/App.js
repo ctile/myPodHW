@@ -1,6 +1,7 @@
 import "./styles.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MyPod from "./mypod/Index.js";
+import seattle_classic from "./mypod/photos/seattle_classic.jpg";
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
           <MyPod />
         </Route>
         <Route exact path="/html/seattle_classic.html">
-          Here
+          <seattle_classic />
         </Route>
         <Route exact path="/somewhere/foo.html">
           You've reached the foo page!
