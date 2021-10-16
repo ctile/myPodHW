@@ -8,6 +8,7 @@ import seattle_video from "./mypod/photos/seattle_video.jpg";
 import seattle_video_med from "./mypod/photos/seattle_video_med.jpg";
 import applestore from "./mypod/photos/applestore.jpg";
 import britain from "./mypod/photos/britain.jpg";
+import ImageFigure from "./mypod/ImageFigure.js";
 
 export default function App() {
   return (
@@ -17,25 +18,58 @@ export default function App() {
           <MyPod />
         </Route>
         <Route exact path="/html/seattle_classic.html">
-          <seattle_classic />
+          <ImageFigure
+            highResThumb={seattle_classic}
+            alt="A classic iPod in Seattle, WA"
+            width={600}
+            height={400}
+          />
+          A classic iPod in Seattle, WA
         </Route>
         <Route exact path="/html/seattle_downtown.html">
-          <seattle_downtown />
+          <ImageFigure
+            highResThumb={seattle_downtown}
+            alt="An iPod in downtown Seattle, WA"
+            width={600}
+            height={400}
+          />
+          An iPod in downtown Seattle, WA
         </Route>
         <Route exact path="/html/seattle_shuffle.html">
-          <seattle_shuffle />
+          <ImageFigure
+            highResThumb={seattle_shuffle}
+            alt="An iPod Shuffle in Seattle, Wa"
+            width={600}
+            height={400}
+          />
+          An iPod Shuffle in Seattle, Wa
         </Route>
         <Route exact path="/html/seattle_video.html">
-          <seattle_video />
-        </Route>
-        <Route exact path="/html/seattle_video_med.html">
-          <seattle_video_med />
+          <ImageFigure
+            highResThumb={seattle_video}
+            alt="My video iPod in Seattle, WA"
+            width={600}
+            height={400}
+          />
+          My video iPod in Seattle, WA
         </Route>
         <Route exact path="/html/applestore.html">
-          <applestore />
+          <ImageFigure
+            highResThumb={applestore}
+            alt="An iPod at the Birmingham Apple store"
+            width={400}
+            height={600}
+          />
+          An iPod at the Birmingham Apple store
         </Route>
         <Route exact path="/html/britain.html">
-          <britain />
+          <ImageFigure
+            highResThumb={britain}
+            alt="An iPod in Birmingham at a telephone box"
+            width={400}
+            height={600}
+          />
+          An iPod in Birmingham at a telephone box
         </Route>
 
         <Route exact path="/somewhere/foo.html">
