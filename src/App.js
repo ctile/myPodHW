@@ -5,7 +5,6 @@ import seattle_classic from "./mypod/photos/seattle_classic.jpg";
 import seattle_downtown from "./mypod/photos/seattle_downtown.jpg";
 import seattle_shuffle from "./mypod/photos/seattle_shuffle.jpg";
 import seattle_video from "./mypod/photos/seattle_video.jpg";
-import seattle_video_med from "./mypod/photos/seattle_video_med.jpg";
 import applestore from "./mypod/photos/applestore.jpg";
 import britain from "./mypod/photos/britain.jpg";
 import ImageFigure from "./mypod/ImageFigure.js";
