@@ -22,8 +22,9 @@ export default function App() {
             alt="A classic iPod in Seattle, WA"
             width={600}
             height={400}
-          />
-          A classic iPod in Seattle, WA
+          >
+            A classic iPod in Seattle, WA
+          </ImageFigure>
         </Route>
         <Route exact path="/html/seattle_downtown.html">
           <ImageFigure
@@ -31,8 +32,9 @@ export default function App() {
             alt="An iPod in downtown Seattle, WA"
             width={600}
             height={400}
-          />
-          An iPod in downtown Seattle, WA
+          >
+            An iPod in downtown Seattle, WA
+          </ImageFigure>
         </Route>
         <Route exact path="/html/seattle_shuffle.html">
           <ImageFigure
@@ -40,8 +42,9 @@ export default function App() {
             alt="An iPod Shuffle in Seattle, Wa"
             width={600}
             height={400}
-          />
-          An iPod Shuffle in Seattle, Wa
+          >
+            An iPod Shuffle in Seattle, Wa
+          </ImageFigure>
         </Route>
         <Route exact path="/html/seattle_video.html">
           <ImageFigure
@@ -49,8 +52,9 @@ export default function App() {
             alt="My video iPod in Seattle, WA"
             width={600}
             height={400}
-          />
-          My video iPod in Seattle, WA
+          >
+            My video iPod in Seattle, WA
+          </ImageFigure>
         </Route>
         <Route exact path="/html/applestore.html">
           <ImageFigure
@@ -58,8 +62,9 @@ export default function App() {
             alt="An iPod at the Birmingham Apple store"
             width={400}
             height={600}
-          />
-          An iPod at the Birmingham Apple store
+          >
+            An iPod at the Birmingham Apple store
+          </ImageFigure>
         </Route>
         <Route exact path="/html/britain.html">
           <ImageFigure
@@ -67,8 +72,9 @@ export default function App() {
             alt="An iPod in Birmingham at a telephone box"
             width={400}
             height={600}
-          />
-          An iPod in Birmingham at a telephone box
+          >
+            An iPod in Birmingham at a telephone box
+          </ImageFigure>
         </Route>
 
         <Route exact path="/somewhere/foo.html">
